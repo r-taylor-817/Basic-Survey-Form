@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="BasicSurvey.css">
+    <meta charset="UTF-8">
+    <title>What Is This Survey Form?</title>
+    </head>
+    <body>
+      <h1 id="title">What Is This Survey Form?</h1>
+      <p id="description">
+        This is a survey form and we hope you have a great time filling it out
+        </p>
+
+        <fieldset>
+          <form id="survey-form">
+          <legend id="legends">
+            <label id="name-label" >
+          Name
+          </label>
+            </legend>
+        <input placeholder="Enter your name" required id="name" type="text">
+          </form>
+          
+
+            <form id="survey-form">
+            <legend id="legends">
+              <label id="email-label">
+          Email
+          </label>
+              </legend>
+        <input required placeholder="Enter your email" type="email" id="email">
+          </form>
+
+            <form id="survey-form">
+            <legend id="legends">
+              <label id="number-label">
+          Age
+          </label>
+              </legend>
+        <input placeholder="Age" min="16" max="100" id="number" type="number">
+          </form>
+
+          
+            <form id="survey-form">
+            <legend id="legend">
+              Select current role
+              </legend> 
+          <select placeholder="Select current role" id="dropdown">
+            <option>
+              Student
+              </option>
+            <option>
+              Software Engineer
+              </option>
+            <option>
+              Data Engineer
+              </option>
+            <option>
+              Non-tech related role
+              </option>
+            <option>
+              Unemployed
+              </option>
+            <option>
+              Other
+              </option>
+            </select>
+            </form>
+            
+
+              <form id="survey-form">
+            <legend id="legends">Would you take this survey again?
+              </legend>
+              </form>
+              <form id="survey-form">
+            <input class="inline" name="Group1" value="yes" type="radio">Absolutely
+            
+            <input checked class="inline" name="Group1" value="maybe" type="radio">I'll think about it
+          
+            <input class="inline" name="Group1" value="no" type="radio">Hell no
+          </form>
+          
+
+            <form id="survey-form">
+            <legend id="legends">What is your favorite part of this survey?
+              </legend>
+              </form>
+              <form id="survey-form">
+              <input value="checked" type="checkbox">The many options to select
+              </form>
+              <form id="survey-form">
+              <input value="checked" type="checkbox">The gracious wording from the developer
+              </form>
+              <form id="survey-form">
+              <input value="checked" type="checkbox">Absolutely nothing, I hate it
+              </form>
+              
+                <form id="survey-form">
+                  <legend id="legends">Would you suggest anything to the creator of this survey? Please?
+                    </legend>
+                    <textarea id="textarea" name="textarea" rows="3" columns="30" placeholder="Please tell us how to improve, we're begging you..."></textarea>
+                    </form>
+                 
+                 <form id="survey-form">
+                 <input class="submit" id="submit" type="submit" value="Submit">
+                 </form>
+                 </fieldset>
+                 
+
+      </body>
+  </html>
+  
